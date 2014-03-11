@@ -1,0 +1,14 @@
+require 'sinatra'
+require 'sinatra/reloader'
+
+get '/' do
+	"<style>
+	h1{color: blue;}
+	</style>
+	<h1 id='someid'>Some Heading</h1>
+	<p>Hello World!</p>
+	<ol>
+	<li>Walk the dog</li>
+	</ol>
+	"
+end
